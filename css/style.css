@@ -72,3 +72,37 @@ nav{
     width: 120px;
     padding: 0.75rem !important;
 }
+.main-content{
+    background-color: #fbf5f5;
+
+}
+
+.content{
+    height: 200vh;
+    background-color: #fbf5f5;
+}
+.main{
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 150px 0px 170px 0px;
+}
+.anthem{
+    width: 38%;
+}
+.heading>h2{
+    font-weight: 600;
+}
+.desc>span{
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.3pt;
+}
+.search-btn{
+    background-color: #03b97c;
+    color: white;
+}
+.input-group{
+    /* width: 85%!important; */
+}
+.search-input{
+
+}
