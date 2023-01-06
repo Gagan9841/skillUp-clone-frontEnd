@@ -1,6 +1,7 @@
 body{
     font-family: 'Jost';
     background-color: #fff;
+    color: #3c4852;
 }
 nav{
     background-color: #fbf5f5;
@@ -20,7 +21,7 @@ nav{
     background: transparent !important;
     -webkit-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
-    /* transition: all 0.3s ease-in-out 0s; */
+    transition: all 0.3s ease-in-out 0s;
     position: relative;
     text-transform: capitalize;
     padding: 29px 15px;
@@ -72,13 +73,18 @@ nav{
     width: 120px;
     padding: 0.75rem !important;
 }
+.btn-login:hover{
+    border: 1px solid #03b97c;
+    background-color: #fff;
+    color: #03b97c;
+}
 .main-content{
     background-color: #fbf5f5;
 
 }
 
 .content{
-    height: 200vh;
+    height: 925px;
     background-color: #fbf5f5;
 }
 .main{
@@ -92,9 +98,9 @@ nav{
     font-weight: 600;
 }
 .desc>span{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
-    letter-spacing: 0.3pt;
+    letter-spacing: 0.2pt;
 }
 .search-btn{
     background-color: #03b97c;
@@ -105,4 +111,111 @@ nav{
 }
 .search-input{
 
+}
+.middle-section{
+    background-color: #fff; 
+    box-shadow: rgb(136 136 136) 1px 1px 14px 1px !important;
+    margin-bottom: 5rem;
+}
+
+.rating {
+    text-align: center;
+    line-height: 0.7rem
+    font-size 22px;
+}
+.rating>h2{
+    font-size: 38px;
+}
+.rating-content{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    align-self: center;
+    line-height: 20px;
+    font-size: 18px;
+    letter-spacing: 0.5pt;
+    text-align: left;
+    text-align: left;
+}
+.highlight{
+    color: #03b97c;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: orange;
+    /* margin-top: 2rem; */
+}
+.tag-badge{
+    font-size: 15px;
+ color: #03b97c !important;
+ background-color: rgba(3, 185, 124, 0.1);
+ font-weight: 400;
+}
+.price-tag {
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.payment{
+    font-size: 24px;
+    color: #03b97c;
+    font-weight: 500;
+}
+.card-title>a{
+    color: #3c4852;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0;
+}
+.card-title>a:hover{
+    color: #03b97c;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+.video, .level{
+    color: orange !important;
+    margin-right: 0.5rem;
+}
+.time{
+    margin-right: 0.5rem;
+}
+.card-desc{
+    margin-right: 2.5rem !important;
+}
+.avatar{
+    border-radius: 50%;
+    width: 60%;
+    height: 68%;
+}
+.tutor-section{
+    height: 786px;
+    margin-bottom: 2rem;
+}
+.cat-card :hover{
+    background-color: #03b97c;
+    color: #fff !important;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+}
+svg{
+    color: #03b97c;
+}
+svg:hover{
+    color: white;
+}
+.categories{
+    background-color: #fbf5f5;
+    padding: 2rem;
+}
+.enroll-btn{
+    width: 30%;
+    color: #03b97c;
+    border: 1px solid #03b97c !important;
+}
+enroll-btn:hover{
+    background-color: #03b97c;
+    color: #fff;
+}
+.student-review{
+    background-color: #fbf5f5;
 }
